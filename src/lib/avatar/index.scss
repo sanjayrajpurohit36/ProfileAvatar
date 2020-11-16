@@ -1,0 +1,23 @@
+.avatar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  .avatar-detail-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--white);
+    align-items: center;
+    .user-name {
+      font-size: 1rem;
+    }
+    .user-post {
+      font-size: 1rem;
+      font-style: italic;
+    }
+  }
+}

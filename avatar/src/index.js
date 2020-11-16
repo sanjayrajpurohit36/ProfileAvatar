@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-// import EditIcon from "./edit-icon.svg";
-// import "./index.scss";
+import EditIcon from "./edit-icon.svg";
+import "./index.scss";
 
 const AvatarImageWrapper = styled.div`
   position: relative;

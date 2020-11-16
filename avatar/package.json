@@ -1,6 +1,6 @@
 {
-  "name": "@sanjayrajpurohit/avatar1",
-  "version": "1.0.1",
+  "name": "@sanjayrajpurohit/avatar",
+  "version": "1.0.0",
   "description": "Avatar Component",
   "main": "./build/index.js",
   "scripts": {
