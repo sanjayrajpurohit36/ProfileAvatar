@@ -1,5 +1,6 @@
 import "./App.css";
-import Avatar from "./lib/avatar/index";
+import { Avatar } from "@sanjayrajpurohit/avatar/build/index";
+// import Avatar from "./lib/avatar";
 
 function App() {
   return (
