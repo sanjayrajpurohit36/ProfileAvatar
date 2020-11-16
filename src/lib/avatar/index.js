@@ -24,7 +24,6 @@ const AvatarImageWrapperOverlay = styled.div`
   height: 100%;
   width: 100%;
   border-radius: 100%;
-  background-color: red;
   background-size: 100% 30%, 100% 30%;
   background-repeat: no-repeat;
   background-position: top, bottom;
