@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import EditIcon from "./edit-icon.svg";
+import EditDefaultIcon from "./edit-icon.svg";
 import "./index.scss";
+
 const AvatarImageWrapper = styled.div`
   position: relative;
   width: 7.5rem;
@@ -74,7 +75,10 @@ function Avatar(props) {
               onProfileEditClick();
             }}
           >
-            <img src={editIconPath ? editIconPath : EditIcon} alt="edit Icon" />
+            <img
+              src={editIconPath ? editIconPath : EditDefaultIcon}
+              alt="edit Icon"
+            />
           </AvatarImageWrapperOverlay>
         )}
       </AvatarImageWrapper>

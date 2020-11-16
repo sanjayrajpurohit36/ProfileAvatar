@@ -75,7 +75,7 @@ function Avatar(props) {
               onProfileEditClick();
             }}
           >
-            <img src={editIconPath ? editIconPath : ""} alt="edit Icon" />
+            <img src={editIconPath ? editIconPath : EditIcon} alt="edit Icon" />
           </AvatarImageWrapperOverlay>
         )}
       </AvatarImageWrapper>
