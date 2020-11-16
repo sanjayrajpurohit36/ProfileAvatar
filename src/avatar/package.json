@@ -1,27 +1,32 @@
 {
   "name": "avatar",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Avatar Component",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
   "private": true,
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "html-webpack-plugin": "^4.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
     "sass": "^1.29.0",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "web-vitals": "^0.2.4",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^4.2.0"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +45,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "author": "Sanjay Rajpurohit",
+  "license": "ISC"
 }
