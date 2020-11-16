@@ -1,5 +1,6 @@
 import "./App.css";
-import Avatar from "./avatar/src/avatar";
+import Avatar from "@sanjayrajpurohit/avatar";
+
 function App() {
   return (
     <div className="App">

@@ -1,13 +1,13 @@
 {
-  "name": "avatar",
-  "version": "1.0.0",
+  "name": "@sanjayrajpurohit/avatar1",
+  "version": "1.0.1",
   "description": "Avatar Component",
   "main": "./build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack --config webpack.config.js"
   },
-  "private": true,
+  "private": false,
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
@@ -47,5 +47,6 @@
     ]
   },
   "author": "Sanjay Rajpurohit",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }

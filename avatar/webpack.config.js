@@ -1,21 +1,20 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: path.join(__dirname, "./src/index.js"),
+  entry: "./src/index.js",
   devtool: "source-map",
   output: {
-    path: path.join(__dirname, "dist"),
-    filename: "bundle.js",
+    path: path.resolve("build"),
+    filename: "index.js",
   },
   module: {
     rules: [
       {
-        test: /\.ts(x?)$/,
+        test: /\.js(x?)$/,
         exclude: /node_modules/,
         use: [
           {
-            loader: "ts-loader",
+            loader: "babel-loader",
           },
         ],
       },
@@ -24,18 +23,13 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-      {
-        enforce: "pre",
-        test: /\.js$/,
-        loader: "source-map-loader",
-      },
+      // {
+      //   enforce: "pre",
+      //   test: /\.js$/,
+      //   loader: "source-map-loader",
+      // },
     ],
   },
-  // plugins: [
-  //   new HtmlWebpackPlugin({
-  //     template: path.join(__dirname, "src/lib/avatar/index.js"),
-  //   }),
-  // ],
   resolve: {
     extensions: [".ts", ".js"],
   },
