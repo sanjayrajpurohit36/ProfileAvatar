@@ -1,25 +1,31 @@
+// import React from "react";
 import "./App.css";
-import { Avatar } from "@sanjayrajpurohit/avatar/build/index";
+// import { Avatar } from "@sanjayrajpurohit/avatar";
+import Title from "@sanjayrajpurohit/title";
+const React = require("react");
 // import Avatar from "./lib/avatar";
 
-function App() {
-  return (
-    <div className="App">
-      <div
-        className="avatar-container"
-        // style={{
-        //   display: "flex",
-        //   flexDirection: "column",
-        //   alignItems: "center",
-        //   justifyContent: "center",
-        // }}
-      >
-        <Avatar showOverlayOnHover={true}>
-          <span> Username</span>
-        </Avatar>{" "}
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Title title="Sanjay" />
+        {/* <div
+          className="avatar-container"
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "column",
+          //   alignItems: "center",
+          //   justifyContent: "center",
+          // }}
+        >
+          <Avatar showOverlayOnHover={true}>
+            <span> Username</span>
+          </Avatar>{" "}
+        </div> */}
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

@@ -12,7 +12,7 @@ function Title(props) {
   );
 }
 
-Avatar.defaultProps = {
+Title.defaultProps = {
   title: "Sanjay Rajpurohit",
   children: <> </>,
 };

@@ -42,6 +42,7 @@
     ]
   },
   "dependencies": {
-    "@sanjayrajpurohit/avatar": "^1.0.1"
+    "@sanjayrajpurohit/avatar": "^1.0.1",
+    "@sanjayrajpurohit/title": "^0.1.3"
   }
 }
