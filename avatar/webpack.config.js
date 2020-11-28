@@ -37,14 +37,14 @@ module.exports = {
       },
     ],
   },
-  alias: {
-    "styled-components": path.resolve(
-      __dirname,
-      "node_modules",
-      "styled-components"
-    ),
-  },
   resolve: {
+    alias: {
+      "styled-components": path.resolve(
+        __dirname,
+        "node_modules",
+        "styled-components"
+      ),
+    },
     extensions: [".js"],
   },
 };
