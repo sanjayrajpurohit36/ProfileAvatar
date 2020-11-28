@@ -37,6 +37,13 @@ module.exports = {
       },
     ],
   },
+  alias: {
+    "styled-components": path.resolve(
+      __dirname,
+      "node_modules",
+      "styled-components"
+    ),
+  },
   resolve: {
     extensions: [".js"],
   },
