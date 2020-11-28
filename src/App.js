@@ -1,16 +1,14 @@
-// import React from "react";
+import React from "react";
+import Avatar from "sanjayrajpurohit/avatar/build";
+import Title from "sanjayrajpurohit/title";
 import "./App.css";
-// import { Avatar } from "@sanjayrajpurohit/avatar";
-import Title from "@sanjayrajpurohit/title";
-const React = require("react");
-// import Avatar from "./lib/avatar";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
         <Title title="Sanjay" />
-        {/* <div
+        <div
           className="avatar-container"
           // style={{
           //   display: "flex",
@@ -22,7 +20,7 @@ class App extends React.Component {
           <Avatar showOverlayOnHover={true}>
             <span> Username</span>
           </Avatar>{" "}
-        </div> */}
+        </div>
       </div>
     );
   }
